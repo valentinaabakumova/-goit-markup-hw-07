@@ -1,10 +1,9 @@
-
 .benef-list {
   display: flex;
   /* margin-left: 30px; */
 }
 
-.benef-main-title {
+.benef__main-title {
   /* display: none; */
   position: absolute;
   width: 1px;
@@ -18,15 +17,13 @@
   overflow: hidden;
 }
 
-
-
-.benef-list-item:not(:last-child) {
+.benef-list__item:not(:last-child) {
   /* width: 270px;
   height: 101px; */
   margin-right: 30px;
 }
 
-.benef-title {
+.benef-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -37,7 +34,7 @@
   margin-bottom: 10px;
 }
 
-.benef-text {
+.benef-list__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;

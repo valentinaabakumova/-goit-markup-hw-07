@@ -1,4 +1,4 @@
-.client-title {
+.client__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.167;
@@ -14,15 +14,9 @@
   justify-content: center;
 }
 
-.client-item {
+.client__item {
   display: flex;
   margin-bottom: 30px;
-
-  /* width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px; */
   & + & {
     margin-left: 30px;
   }

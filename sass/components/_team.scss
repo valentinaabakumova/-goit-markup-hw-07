@@ -6,9 +6,11 @@
   background-color: #f5f4fa;
 }
 
-.team-item > img {
-  width: 270px;
-  height: 260px;
+.team-item {
+  img {
+    width: 270px;
+    height: 260px;
+  }
 }
 
 .team-item:not(:last-child) {

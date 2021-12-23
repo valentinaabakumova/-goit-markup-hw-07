@@ -1,22 +1,22 @@
-.doing {
+.doing-wrap-main {
   padding-top: 0;
 }
 
-.doing-list {
+.doing {
   display: flex;
   margin-top: 50px;
 }
 
-.doing-item {
+.doing__item {
   /* width: 370px; */
   /* height: 294px; */
 }
 
-.doing-item:not(:last-child) {
+.doing__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.doing_title {
+.doing-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -30,15 +30,11 @@
   justify-content: center;
 }
 
-/* .doing-item {
-  position: relative;
-} */
-
 .wrap-doing {
   position: relative;
 }
 
-.doing-text {
+.doing__text {
   position: absolute;
 
   left: 0;

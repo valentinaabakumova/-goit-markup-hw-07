@@ -1,36 +1,32 @@
-.doing-wrap-main {
+.section--no-padding-top {
   padding-top: 0;
 }
 
 .doing {
   display: flex;
-  margin-top: 50px;
+  // margin-top: 50px;
 }
 
 .doing__item {
   /* width: 370px; */
   /* height: 294px; */
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.doing__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.doing-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color_second);
+
+  margin-bottom: 50px;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-}
-
-.wrap-doing {
+.doing__box {
   position: relative;
 }
 

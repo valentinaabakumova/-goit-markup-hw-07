@@ -1,29 +1,15 @@
-.benef-list {
+.benef {
   display: flex;
   /* margin-left: 30px; */
 }
 
-.benef__main-title {
-  /* display: none; */
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.benef-list__item:not(:last-child) {
+.benef__item:not(:last-child) {
   /* width: 270px;
   height: 101px; */
   margin-right: 30px;
 }
 
-.benef-list__title {
+.benef__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -34,7 +20,7 @@
   margin-bottom: 10px;
 }
 
-.benef-list__text {
+.benef__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -44,7 +30,7 @@
 
 /* benef icon */
 
-.benef-container {
+.benef__container {
   display: flex;
   justify-content: center;
   align-items: center;
